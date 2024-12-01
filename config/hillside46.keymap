@@ -38,8 +38,8 @@
  */
                         bindings = <
 &kp  GRAVE    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  SLASH        &kp  BSLH
-&kp  NAV      &kp  A        &kp  O        &kp  E       &lt NUM_L U      &kp  I                                                                         &kp  D        &kp  H        &kp  T        &kp  N        &kp  S        &kp MINUS
-&mo  LSHIFT    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  LALT                                           &caps_word    &kp  B      &kp  M        &kp  W        &kp  V        &kp  L        &kp  LSHIFT
+&mo  NAV      &kp  A        &kp  O        &kp  E       &lt NUM_L U      &kp  I                                                                         &kp  D        &kp  H        &kp  T        &kp  N        &kp  S        &kp MINUS
+&kp  LSHIFT    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  LALT                                           &caps_word    &kp  B      &kp  M        &kp  W        &kp  V        &kp  L        &kp  LSHIFT
                                                         &kp  LGUI      &kp  LALT    &mo  SYM_L    &kp LCTRL            &kp  ENTER    &kp  SPACE    &kp  LALT    &kp  RGUI
                         >;
 			
