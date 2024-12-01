@@ -68,14 +68,14 @@
 /* NUMBER
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | `     |   Q   |   W   |   F   |   P   |   B   |-----------------------------------|   J   |   7   |   8   |   9   |   ;   | BKSPC |
- * | TAB   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   M   |   4   |   5   |   6   |   O   | ENTER |
- * | CTRL  |   Z   |   X   |   C   |   D   |   V   |  ESC  |-------------------| CAPS  |   K   |   1   |   2   |   3   |   /   |   '   |
+ * | CTRL   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   M   |   4   |   5   |   6   |   O   | ENTER |
+ * | SHIFT  |   Z   |   X   |   C   |   D   |   V   |  ESC  |-------------------| CAPS  |   K   |   1   |   2   |   3   |   /   |   '   |
  *                                 |  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |   .   |   0  |
  */
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  N7        &kp  N8       &kp  N9        &kp  SEMI     &kp  BSPC
-&kp  LSHIFT      &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N4        &kp  N5        &kp  N6        &kp  O        &kp  LSHIFT
-&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   ESC                                          &caps_word    &kp  K        &kp  N1        &kp  N2    &kp  N3      &kp  SLASH    &kp  SQT
+&kp  CTRL      &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N4        &kp  N5        &kp  N6        &kp  O        &kp  LSHIFT
+&kp  LSHIFT    &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   ESC                                          &caps_word    &kp  K        &kp  N1        &kp  N2    &kp  N3      &kp  SLASH    &kp  SQT
                                                         &kp  LGUI     &kp  LALT     &kp  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  DOT     &kp N0 
                         >;
 			
