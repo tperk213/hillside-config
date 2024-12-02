@@ -37,10 +37,10 @@
  *                                |  GUI  |  Sym  |  CTRL  |  ALT |---|  ALT  | ENTER | SPACE |  GUI  |
  */
                         bindings = <
-&kp  GRAVE    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  SLASH        &kp  BSLH
-&mo  NAV_L    &kp  A        &kp  O        &mt  LSHIFT E &lt NUM_L U      &kp  I                                                                         &kp  D        &mt LSHIFT H        &kp  T        &kp  N        &kp  S        &kp MINUS
+&mo  NAV_L    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  SLASH        &kp  BSLH
+&kp  LSHIFT    &kp  A        &kp  O        &kp E         &lt NUM_L U      &kp  I                                                                         &kp  D        &kp H        &kp  T        &kp  N        &kp  S        &kp MINUS
 &kp  LSHIFT    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  LALT                                           &caps_word    &kp  B      &kp  M        &kp  W        &kp  V        &kp  L        &kp  LSHIFT
-                                                        &kp  LGUI      &kp  LALT    &mo  SYM_L    &kp LCTRL            &kp  ENTER    &kp  SPACE    &kp  LALT    &kp  RGUI
+                                                        &kp  LGUI      &kp  LSHIFT    &mo  SYM_L    &kp LCTRL            &kp  ENTER    &kp  SPACE    &kp  LSHIFT    &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -56,8 +56,8 @@
  */
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
-&kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER  
-&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                           &caps_word    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
+&kp  LSHIFT      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER  
+&kp  LSHIFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                           &caps_word    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
                                                         &kp  LGUI     &kp  LALT     &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  LALT     &kp  RGUI
                         >;
 			
@@ -112,7 +112,7 @@
 &kp  INS      &kp  EXCL     &kp  AT       &kp  HASH     &kp  DOLLAR   &kp  PERCENT                                                                   &kp  CARET    &kp  LBRC     &kp  RBRC    &kp  Z &kp  C_VOL_UP     &kp DEL
 &kp LSHIFT      &kp  BSLH     &kp  MINUS    &kp  RGUI    &kp  RSHFT    &kp  RCTRL                                                                      &kp  HOME     &kp  LPAR     &kp  RPAR    &kp  ESC     &kp  EQUAL     &kp END
 &trans        &kp  PIPE     &kp  UNDER    &kp  PLUS     &kp  LBRC     &kp  BSPC     &sk  RALT                                          &kp K_APP     &kp  C_MUTE   &kp  LBKT     &kp  RBKT &kp  GRAVE     &kp  SLASH         &kp RCTRL
-                                                        &mo ADJ_L        &trans        &trans       &trans               &trans       &kp TAB        &trans        &trans
+                                                        &kp UP        &kp DOWN        &trans       &trans               &mo ADJ_L   &kp TAB        &kp LEFT        &kp RIGHT
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
