@@ -37,7 +37,7 @@
  *                                |  GUI  |  ALT  |  Sym  |  CTRL |---|  ALT  | ENTER | SPACE |  GUI  |
  */
                         bindings = <
-&mo  NAV_L    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  SLASH        &kp  BSLH
+&mo  NAV_L    &kp SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  SLASH        &kp  BSLH
 &kp  LSHIFT    &kp  A        &kp  O        &kp E         &lt NUM_L U      &kp  I                                                                         &kp  D        &kp H        &kp  T        &kp  N        &kp  S        &kp MINUS
 &kp  LSHIFT    &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  LALT                                           &caps_word    &kp  B      &kp  M        &kp  W        &kp  V        &kp  L        &kp  LSHIFT
                                                         &kp  LGUI      &kp  LSHIFT    &mo  SYM_L    &kp LCTRL            &kp  ENTER    &kp  SPACE    &kp  LSHIFT    &kp  RGUI
@@ -68,13 +68,13 @@
 /* NUMBER
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | `     |   Q   |   W   |   F   |   P   |   B   |-----------------------------------|   J   |   7   |   8   |   9   |   ;   | BKSPC |
- * | CTRL   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   M   |   4   |   5   |   6   |   O   | ENTER |
+ * | CTRL   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   '   |   4   |   5   |   6   |   O   | ENTER |
  * | SHIFT  |   Z   |   X   |   C   |   D   |   V   |  ESC  |-------------------| CAPS  |   K   |   1   |   2   |   3   |   /   |   '   |
  *                                 |  GUI  |  ALT  |SK SHFT|  Nav  |---|  Sym  | SPACE |   .   |   0  |
  */
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  N7        &kp  N8       &kp  N9        &kp  SEMI     &kp  BSPC
-&kp  LCTRL      &kp  A        &kp  R        &trans        &kp  T        &kp  G                                                                         &kp  M        &kp  N4        &kp  N5        &kp  N6        &kp  O        &kp  LSHIFT
+&kp  LCTRL      &kp  A        &kp  R        &trans        &kp  T        &kp  G                                                                         &kp  SQT        &kp  N4        &kp  N5        &kp  N6        &kp  O        &kp  LSHIFT
 &kp  LSHIFT    &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   ESC                                          &caps_word    &kp  K        &kp  N1        &kp  N2    &kp  N3      &kp  SLASH    &kp  SQT
                                                         &kp  LGUI     &kp  LALT     &kp  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  DOT     &kp N0 
                         >;
@@ -104,13 +104,13 @@
 /* SYM
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | INS   |   !   |   @   |   #   |   $   |   %   |-----------------------------------|   ^   |   {   |   }   | Z   | Vol+  | BSPC  |
- * |       |   \   |   -   |  Gua  | Shift | Ctrl  |-----------------------------------| HOME  |   (   |   )   | ESC |   =   | END   |
+ * |       |   \   |   -   |  Gua  | Shift | Ctrl  |-----------------------------------|   '   |   (   |   )   | ESC |   =   | END   |
  * | Ctrl  |   |   |   _   |   +   |   {   | BSPC  |SkAltGr|-------------------| MENU  | Mute  |   [   |   ]   | `   |   /   | Ctrl  |
  *                                 | ADJ_L |       |       |       |---|      |       | TAB   |       |
  */
                         bindings = <
 &kp  INS      &kp  EXCL     &kp  AT       &kp  HASH     &kp  DOLLAR   &kp  PERCENT                                                                   &kp  CARET    &kp  LBRC     &kp  RBRC    &kp  Z &kp  C_VOL_UP     &kp DEL
-&kp LSHIFT      &kp  BSLH     &kp  MINUS    &kp  RGUI    &kp  RSHFT    &kp  RCTRL                                                                      &kp  HOME     &kp  LPAR     &kp  RPAR    &kp  ESC     &kp  EQUAL     &kp END
+&kp LSHIFT      &kp  BSLH     &kp  MINUS    &kp  RGUI    &kp  RSHFT    &kp  RCTRL                                                                      &kp  SQT     &kp  LPAR     &kp  RPAR    &kp  ESC     &kp  EQUAL     &kp END
 &trans        &kp  PIPE     &kp  UNDER    &kp  PLUS     &kp  LBRC     &kp  BSPC     &sk  RALT                                          &kp K_APP     &kp  C_MUTE   &kp  LBKT     &kp  RBKT &kp  GRAVE     &kp  SLASH         &kp RCTRL
                                                         &mo ADJ_L        &none        &none       &none               &none       &kp TAB        &none        &none
                         >;
